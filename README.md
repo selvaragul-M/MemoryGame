@@ -33,3 +33,19 @@ A classic memory game built using **Java** and **Swing**. The game challenges pl
 - **Object-Oriented Programming (OOP)**: The game is designed using OOP principles for modularity and reusability.
 
 ---
+
+## Code Structure
+- **MemoryGame.java**: The main class that initializes the game, handles UI, and manages game logic.
+- **Grid Layout**: A 4x4 grid of buttons (`JButton`) representing the tiles.
+- **Event Handling**: Tile clicks are handled using `ActionListener`.
+- **Timer**: Used to delay flipping back unmatched tiles.
+
+---
+
+## Future Enhancements
+- Add difficulty levels (e.g., 6x6 grid for a harder challenge).
+- Include a timer to track how long the player takes to complete the game.
+- Add animations for flipping tiles.
+- Save high scores or best moves.
+
+---
